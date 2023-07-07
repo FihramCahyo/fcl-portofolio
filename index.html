@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="./styles/responsive.css" />
+    <title>Fihram Cahyo Leksono - Web Developer</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="header">
+      <div class="main-container">
+        <div class="nav">
+          <div class="logo">
+            <a href="#header">FCL</a>
+          </div>
+
+          <nav>
+            <ul>
+              <li><a href="#services">Kemampuan</a></li>  
+              <li><a href="#portofolios">Projek</a></li>
+              <li><a href="#skills">Pendidikan</a></li>
+              <li><a href="#contact">Kontak</a></li>
+              <li>
+                <a href="/resume.pdf" target="_blank">
+                  <button class="btn">Resume</button>
+                </a>
+              </li>
+            </ul>
+          </nav>
+
+          <!-- Burger -->
+          <div class="burger">
+            <div class="line-1"></div>
+            <div class="line-2"></div>
+            <div class="line-3"></div>
+          </div>
+          <!-- End of Burger -->
+        </div>
+        
+
+        <section id="hero">
+          <div class="hero-left">
+            <h3 class="pre-title">Nama saya</h3>
+            <h1 class="hero-name">Fihram <span>Cahyo</span> Leksono</h1>
+            <p>
+              Saya adalah seorang yang sangat antusias untuk belajar dan menjelajahi dunia teknologi. 
+              Saya merasa sangat tertarik dengan eksplorasi dalam bidang digital, baik itu dalam dunia 
+              pemrograman maupun teknik. 
+            </p>
+          </div>
+          <div class="hero-right">
+            <img src="./images/Foto.png" alt="Person Running" />
+          </div>
+        </section>
+      </div>
+    </header>
+    <!-- END OF HEADER -->
+
+    <!-- SERVICES -->
+    <section id="services">
+      <div class="services main-container">
+        <h3 class="pre-title">Kemampuan</h3>
+        <h1 class="section-title services-title">Khusus Dalam</h1>
+
+        <div class="grid-3">
+          <!-- Service 1 -->
+          <div class="service">
+            <div class="service-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 9h-24v6h24v-6zm-22 4l.863-2h1.275l-.863 2h-1.275zm2.066 0l.863-2h1.275l-.863 2h-1.275zm2.067 0l.863-2h1.275l-.864 2h-1.274zm2.066 0l.863-2h1.274l-.863 2h-1.274zm3.341 0h-1.274l.863-2h1.275l-.864 2zm9.46 0c-.552 0-1-.448-1-1s.448-1 1-1c.553 0 1 .448 1 1s-.447 1-1 1zm3 4h-24v6h24v-6zm-22 4l.863-2h1.275l-.863 2h-1.275zm2.066 0l.863-2h1.275l-.863 2h-1.275zm2.067 0l.863-2h1.275l-.864 2h-1.274zm2.066 0l.863-2h1.274l-.863 2h-1.274zm3.341 0h-1.274l.863-2h1.275l-.864 2zm9.46 0c-.552 0-1-.448-1-1s.448-1 1-1c.553 0 1 .448 1 1s-.447 1-1 1zm1-14h-20l4-6h12l4 6z"/></svg>            </div>
+            <h4>Network Engeneering</h4>
+            <P>
+              Memahami konsep dasar jaringan dan mampu mengkonfigurasi dan mengelola perangkat jaringan
+            </P>
+          </div> 
+
+          <!-- Service 2 -->
+          <div class="service">
+            <div class="service-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M22 1h-20v14h20v-14zm-2 12h-16v-10h16v10zm2 3h-20l-2 7h24l-2-7zm-12.228 6l.466-2h3.524l.466 2h-4.456z"/></svg>            </div>
+            <h4>Data Entry</h4>
+            <P>
+              Menginput data dengan cepat dan akurat serta mampu mengatur data dan mengelolanya dengan baik
+            </P>
+          </div>
+
+          <!-- Service 3 -->
+          <div class="service">
+            <div class="service-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M13 12v1.649l3.229 1.351-3.229 1.347v1.653l5-2.201v-1.599l-5-2.2zm-7 2.201v1.599l5 2.2v-1.653l-3.229-1.347 3.229-1.351v-1.649l-5 2.201zm5.362-12.201c4.156 0 2.638 6 2.638 6s6-1.65 6 2.457v11.543h-16v-20h7.362zm.827-2h-10.189v24h20v-14.386c0-2.391-6.648-9.614-9.811-9.614z"/></svg>            </div>
+            <h4>Web Developer</h4>
+            <P>
+              Mampu mengembangkan tampilan dan antarmuka pengguna serta mampu membuat situs web yang responsif
+            </P>
+          </div>
+        </div>
+
+        <!-- Back Button -->
+        <!-- <div class="back-item">
+          <div class="back-item-icon">
+            <a href="#header">
+              <svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m11.998 21.995c5.517 0 9.997-4.48 9.997-9.997 0-5.518-4.48-9.998-9.997-9.998-5.518 0-9.998 4.48-9.998 9.998 0 5.517 4.48 9.997 9.998 9.997zm0-1.5c-4.69 0-8.498-3.807-8.498-8.497s3.808-8.498 8.498-8.498 8.497 3.808 8.497 8.498-3.807 8.497-8.497 8.497zm4.845-6.711c.108.141.157.3.157.456 0 .389-.306.755-.749.755h-8.501c-.445 0-.75-.367-.75-.755 0-.157.05-.316.159-.457 1.203-1.554 3.252-4.199 4.258-5.498.142-.184.36-.29.592-.29.23 0 .449.107.591.291zm-7.564-.289h5.446l-2.718-3.522z" fill-rule="nonzero"/></svg>
+             </a>
+          </div>
+        </div> -->
+      </div>
+    </section>
+
+    <!-- END OF SERVICES -->
+
+    <!-- Portofolio -->
+    <section id="portofolios">
+    <div class="portofolios main-container">
+      <h3 class="pre-title">Projek Saya</h3>
+      <h1 class="section-title">Yang pernah dibuat</h1>
+
+      <div class="grid-3">
+        <!-- Portofolio 1 -->
+        <div class="portofolio">
+          <div class="portofolio-cover">
+            <img src="./images/crud.PNG" alt="Portofolio 1">
+          </div>
+
+          <div class="portofolio-info">
+            <div class="portofolio-title">
+              <h4>CRUD - BS5</h4>
+              <a href="https://fclidn.000webhostapp.com/" class="portofolio-link" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M6 17c2.269-9.881 11-11.667 11-11.667v-3.333l7 6.637-7 6.696v-3.333s-6.17-.171-11 5zm12 .145v2.855h-16v-12h6.598c.768-.787 1.561-1.449 2.339-2h-10.937v16h20v-6.769l-2 1.914z"/></svg>
+              </a>
+            </div>
+
+            <div class="portofolio-tags">
+              <div>HTML</div>
+              <div>CSS</div>
+              <div>JavaScript</div>
+              <div>PHP</div>
+            </div>
+
+            <!-- <p>
+              Loading Animation merupakan jenis animasi yang digunakan untuk memberikan feedback visual 
+              kepada pengguna saat suatu proses pemuatan atau pengunduhan sedang berlangsung di dalam 
+              aplikasi, situs web, atau program komputer.
+            </p> -->
+
+          </div>
+        </div>
+
+        <!-- Portofolio 2 -->
+        <div class="portofolio">
+          <div class="portofolio-cover">
+            <img src="./images/Transparang Login UI.PNG" alt="Portofolio 2">
+          </div>
+
+          <div class="portofolio-info">
+            <div class="portofolio-title">
+              <h4>Transparent Login Form UI</h4>
+              <a href="./projek/Transparent Login Form UI/index.html" class="portofolio-link" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M6 17c2.269-9.881 11-11.667 11-11.667v-3.333l7 6.637-7 6.696v-3.333s-6.17-.171-11 5zm12 .145v2.855h-16v-12h6.598c.768-.787 1.561-1.449 2.339-2h-10.937v16h20v-6.769l-2 1.914z"/></svg>
+              </a>
+            </div>
+
+            <div class="portofolio-tags">
+              <div>HTML</div>
+              <div>CSS</div>
+            </div>
+
+            <!-- <p>
+              Transparent Login Form UI (User Interface) adalah desain antarmuka pengguna yang digunakan dalam 
+              halaman login di aplikasi atau situs web yang memiliki latar belakang transparan.</p> -->
+
+          </div>
+        </div>
+
+        <!-- Portofolio 3 -->
+        <div class="portofolio">
+          <div class="portofolio-cover">
+            <img src="./images/Hospital Websites.PNG" alt="Portofolio 3">
+          </div>
+
+          <div class="portofolio-info">
+            <div class="portofolio-title">
+              <h4>Dental Clinic Websites</h4>
+              <a href="https://fihramcahyo.github.io/Hyo-ODC/" class="portofolio-link" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M6 17c2.269-9.881 11-11.667 11-11.667v-3.333l7 6.637-7 6.696v-3.333s-6.17-.171-11 5zm12 .145v2.855h-16v-12h6.598c.768-.787 1.561-1.449 2.339-2h-10.937v16h20v-6.769l-2 1.914z"/></svg>
+              </a>
+            </div>
+
+            <div class="portofolio-tags">
+              <div>HTML</div>
+              <div>CSS</div>
+              <div>JavaScript</div>
+              <div>Templates</div>
+            </div>
+
+            <!-- <p>
+              Dental Clinic Websites adalah situs web yang dibuat khusus untuk klinik gigi atau praktek dokter 
+              gigi. Mereka dirancang untuk memberikan informasi tentang klinik gigi, layanan yang ditawarkan, 
+              jadwal praktek, dan kontak untuk membuat janji..</p> -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Back Button -->
+      <!-- <div class="back-item">
+        <div class="back-item-icon">
+          <a href="#header">
+            <svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m11.998 21.995c5.517 0 9.997-4.48 9.997-9.997 0-5.518-4.48-9.998-9.997-9.998-5.518 0-9.998 4.48-9.998 9.998 0 5.517 4.48 9.997 9.998 9.997zm0-1.5c-4.69 0-8.498-3.807-8.498-8.497s3.808-8.498 8.498-8.498 8.497 3.808 8.497 8.498-3.807 8.497-8.497 8.497zm4.845-6.711c.108.141.157.3.157.456 0 .389-.306.755-.749.755h-8.501c-.445 0-.75-.367-.75-.755 0-.157.05-.316.159-.457 1.203-1.554 3.252-4.199 4.258-5.498.142-.184.36-.29.592-.29.23 0 .449.107.591.291zm-7.564-.289h5.446l-2.718-3.522z" fill-rule="nonzero"/></svg>
+           </a>
+        </div>
+      </div> -->
+
+    </div>
+  </section>
+    <!-- End of Portofolio -->
+
+    <!-- Skills -->
+    <section id="skills">
+      <div class="skills main-container">
+        <h3 class="pre-title">Jalur Belajar</h3>
+        <h1 class="section-title">Pendidikan</h1>
+
+        <div class="skills-grid">
+          <div class="skills-left">
+            
+          <!-- Education 1 -->
+          <div class="education">
+            <div class="line">
+              <div></div>
+            </div>
+
+              <div class="education-info">
+                <h4 class="education-title">SMK Bina Rahayu</h4>
+                <P>Teknik Komputer dan Jaringan</P>
+                <h4 class="education-years">2018 - 2021</h4>
+              </div>
+            </div>
+
+             <!-- Education 2 -->
+            <div class="education">
+              <div class="line">
+                <div></div>
+              </div>
+  
+                <div class="education-info">
+                  <h4 class="education-title">Politeknik LP3I Jakarta</h4>
+                  <P>Manajemen Informatika</P>
+                  <h4 class="education-years">2021 - 2024</h4>
+                </div>
+              </div>
+
+          </div>
+          <div class="skills-right">
+            <p>
+              Selama pendidikan saya, saya telah menguasai berbagai keterampilan, termasuk pemrograman dan jaringan komputer. Meskipun jurusan kuliah saya berbeda dengan jurusan SMK sebelumnya, saya tetap mempertahankan dan memperluas keterampilan yang saya pelajari di bidang Teknik Komputer dan Jaringan (TKJ). Berikut adalah beberapa keterampilan yang saya kuasai:
+            </p>
+          <div class="skills-list">
+            <ul>
+              <li>HTML & CSS</li>
+              <li>PHP</li>
+              <li>JavaScript</li>
+            </ul>
+
+            <ul>
+              <li>Administrasi Web</li>
+              <li>Jaringan Nirkabel</li>
+              <li>Integrator Komputer</li>
+            </ul>
+          </div>
+          </div>
+        </div>
+
+        <!-- Back Button -->
+        <!-- <div class="back-item">
+          <div class="back-item-icon">
+            <a href="#header">
+              <svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m11.998 21.995c5.517 0 9.997-4.48 9.997-9.997 0-5.518-4.48-9.998-9.997-9.998-5.518 0-9.998 4.48-9.998 9.998 0 5.517 4.48 9.997 9.998 9.997zm0-1.5c-4.69 0-8.498-3.807-8.498-8.497s3.808-8.498 8.498-8.498 8.497 3.808 8.497 8.498-3.807 8.497-8.497 8.497zm4.845-6.711c.108.141.157.3.157.456 0 .389-.306.755-.749.755h-8.501c-.445 0-.75-.367-.75-.755 0-.157.05-.316.159-.457 1.203-1.554 3.252-4.199 4.258-5.498.142-.184.36-.29.592-.29.23 0 .449.107.591.291zm-7.564-.289h5.446l-2.718-3.522z" fill-rule="nonzero"/></svg>
+             </a>
+          </div>
+        </div> -->
+
+      </div>
+    </section>
+    <!-- End of Skills -->
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="contact main-container">
+        <div class="contact-left">
+          <form  class="contact-form" action="https://formspree.io/f/xwkderwr" method="post">
+            <div>
+              <input type="text" placeholder="Nama" name="name">
+            </div>
+            <div>
+              <input type="email" placeholder="Email" name="email">
+            </div>
+            <div>
+              <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+              <button class="btn-submit">Kirim Pesan</button>
+            </div>
+          </form>
+        </div>
+        <div class="contact-right">
+          <!-- Contact Item 1 -->
+          <div class="contact-item">
+            <div class="contact-item-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 1c-3.148 0-6 2.553-6 5.702 0 3.148 2.602 6.907 6 12.298 3.398-5.391 6-9.15 6-12.298 0-3.149-2.851-5.702-6-5.702zm0 8c-1.105 0-2-.895-2-2s.895-2 2-2 2 .895 2 2-.895 2-2 2zm8 6h-3.135c-.385.641-.798 1.309-1.232 2h3.131l.5 1h-4.264l-.344.544-.289.456h.558l.858 2h-7.488l.858-2h.479l-.289-.456-.343-.544h-2.042l-1.011-1h2.42c-.435-.691-.848-1.359-1.232-2h-3.135l-4 8h24l-4-8zm-12.794 6h-3.97l1.764-3.528 1.516 1.528h1.549l-.859 2zm8.808-2h3.75l1 2h-3.892l-.858-2z"/></svg>
+            </div>
+          <div class="contact-item-detail">
+            <h4>Alamat</h4>
+            <p>Jl. Rivaria Dalam 1 No. 53, RT.001 RW.002 Kel. Bedahan, Kec. Sawangan</p>
+          </div>
+        </div>
+
+          <!-- Contact Item 2 -->
+          <div class="contact-item">
+            <div class="contact-item-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M18.48 22.926l-1.193.658c-6.979 3.621-19.082-17.494-12.279-21.484l1.145-.637 3.714 6.467-1.139.632c-2.067 1.245 2.76 9.707 4.879 8.545l1.162-.642 3.711 6.461zm-9.808-22.926l-1.68.975 3.714 6.466 1.681-.975-3.715-6.466zm8.613 14.997l-1.68.975 3.714 6.467 1.681-.975-3.715-6.467z"/></svg>            </div>
+          <div class="contact-item-detail">
+            <h4>Telepon</h4>
+            <p>08568213804</p>
+          </div>
+        </div>
+
+          <!-- Contact Item 3 -->
+          <div class="contact-item">
+            <div class="contact-item-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 3v18h24v-18h-24zm21.518 2l-9.518 7.713-9.518-7.713h19.036zm-19.518 14v-11.817l10 8.104 10-8.104v11.817h-20z"/></svg>            </div>
+          <div class="contact-item-detail">
+            <h4>Email</h4>
+            <p>fihramcahyo10@gmail.com</p>
+          </div>
+        </div>
+        
+        <!-- Back Button -->
+        <!-- <div class="back-item">
+          <div class="back-item-icon">
+            <a href="#header">
+              <svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m11.998 21.995c5.517 0 9.997-4.48 9.997-9.997 0-5.518-4.48-9.998-9.997-9.998-5.518 0-9.998 4.48-9.998 9.998 0 5.517 4.48 9.997 9.998 9.997zm0-1.5c-4.69 0-8.498-3.807-8.498-8.497s3.808-8.498 8.498-8.498 8.497 3.808 8.497 8.498-3.807 8.497-8.497 8.497zm4.845-6.711c.108.141.157.3.157.456 0 .389-.306.755-.749.755h-8.501c-.445 0-.75-.367-.75-.755 0-.157.05-.316.159-.457 1.203-1.554 3.252-4.199 4.258-5.498.142-.184.36-.29.592-.29.23 0 .449.107.591.291zm-7.564-.289h5.446l-2.718-3.522z" fill-rule="nonzero"/></svg>
+             </a>
+          </div>
+        </div> -->
+
+       </div>
+     </div>
+    </section>
+    <!-- End of Contact -->
+
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-icons">
+        <a href="https://www.instagram.com/fihram_cahyo23/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+        </a>
+        <a href="https://github.com/FihramCahyo" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+        </a>
+      </div>
+      <p>&#169; 2023 - Made by Fihram Cahyo</p>
+    </footer>
+    <!-- End of Footer -->
+
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
